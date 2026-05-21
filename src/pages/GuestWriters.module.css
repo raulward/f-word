@@ -1,0 +1,28 @@
+.page {
+  width: var(--stage-w);
+  min-height: 100vh;
+  padding: 96px 90px 120px;
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 120px;
+  margin-bottom: 72px;
+}
+
+.intro p {
+  max-width: 760px;
+  font-family: var(--font-sans);
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 1.05;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}

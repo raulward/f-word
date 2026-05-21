@@ -1,0 +1,85 @@
+:root {
+  /* Tipografia */
+  --font-sans: 'Inter', sans-serif;
+  --font-article: 'Cormorant', 'Cormorant Garamond', Georgia, serif;
+
+  /* Paleta canônica (test-giulia) */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-red: #ba1f1b;
+  --color-red-hover: #a01a17;
+  --color-footer-red: #900f0c;
+  --color-cream: #efe6dd;
+  --color-ink: #1d1d1d;
+
+  /* Aliases semânticos */
+  --color-bg: var(--color-black);
+  --color-fg: var(--color-white);
+  --color-accent: var(--color-red);
+
+  /* Stage */
+  --stage-w: 1920px;
+  --stage-h: 1080px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  background: var(--color-bg);
+  color: var(--color-white);
+}
+
+body {
+  min-width: var(--stage-w);
+  overflow-x: auto;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}

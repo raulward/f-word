@@ -1,0 +1,41 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-black);
+}
+
+.section {
+  width: var(--stage-w);
+  padding: 90px 90px 70px;
+}
+
+.sectionTitle {
+  margin: 0 0 48px;
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+}
+
+.emFocoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 850px);
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.artigos {
+  background: var(--color-black);
+}
+
+.artigosStack {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.guest {
+  padding-bottom: 120px;
+}

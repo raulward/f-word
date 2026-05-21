@@ -1,0 +1,125 @@
+.footer {
+  display: grid;
+  grid-template-columns: 38.05% 39.55% 22.4%;
+  gap: 2px;
+  align-items: stretch;
+  min-height: 468px;
+  background: var(--color-black);
+}
+
+.panel {
+  min-width: 0;
+  background: var(--color-footer-red);
+  border-radius: 44px 44px 0 0;
+  color: var(--color-white);
+}
+
+.brand {
+  padding: 68px 36px 35px;
+}
+
+.brand img {
+  width: 395px;
+  max-width: 100%;
+  height: auto;
+}
+
+.brand p {
+  width: 415px;
+  max-width: 100%;
+  margin-top: 43px;
+  font-family: var(--font-article);
+  font-size: 31px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.42;
+  text-transform: uppercase;
+}
+
+.team {
+  padding: 37px 14px 30px;
+}
+
+.panel h2 {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.teamList {
+  margin-top: 43px;
+}
+
+.teamList p {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.teamName {
+  font: inherit;
+}
+
+.institution {
+  margin-top: 47px;
+}
+
+.institution p {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 27px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 1.18;
+  text-transform: uppercase;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 87px 12px 30px;
+  text-align: center;
+}
+
+.links nav {
+  display: grid;
+  gap: 16px;
+}
+
+.links a {
+  font-family: var(--font-sans);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.contacts {
+  margin-top: 80px;
+}
+
+.contacts h2 {
+  margin-bottom: 28px;
+  font-size: 25px;
+}
+
+.contacts p {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.email {
+  font-family: var(--font-sans);
+  font-style: italic;
+  font-weight: 400;
+}

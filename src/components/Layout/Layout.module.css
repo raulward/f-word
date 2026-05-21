@@ -1,0 +1,12 @@
+.shell {
+  width: var(--stage-w);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg);
+  color: var(--color-fg);
+}
+
+.main {
+  flex: 1;
+}

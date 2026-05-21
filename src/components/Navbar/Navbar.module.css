@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 81px;
+  padding: 23px 29px 0;
+  background: var(--color-black);
+}
+
+.logo {
+  display: block;
+  width: 147px;
+  flex: 0 0 auto;
+}
+
+.logo img {
+  width: 147px;
+  height: 27px;
+  display: block;
+}
+
+.nav {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 5px 20px 7px;
+  border-radius: 999px;
+  background: var(--color-red);
+  color: var(--color-white);
+  font-family: var(--font-sans);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+  transition: background 0.15s ease;
+}
+
+.pill:hover {
+  background: var(--color-red-hover);
+}
+
+.pillActive {
+  background: var(--color-footer-red);
+}
