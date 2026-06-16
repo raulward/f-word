@@ -11,6 +11,7 @@ import CabeloComoPolitica from './pages/posts/CabeloComoPolitica.jsx'
 import InternetTransformouTendencia from './pages/posts/InternetTransformouTendencia.jsx'
 import MuitoAlemDoLook from './pages/posts/MuitoAlemDoLook.jsx'
 import OQueVoceVeste from './pages/posts/OQueVoceVeste.jsx'
+import FotografiaDeModaAtualidade from './pages/posts/FotografiaDeModaAtualidade.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 export default function App() {
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="artigos/internet-transformou-tendencia" element={<InternetTransformouTendencia />} />
         <Route path="artigos/muito-alem-do-look" element={<MuitoAlemDoLook />} />
         <Route path="artigos/o-que-voce-veste" element={<OQueVoceVeste />} />
+        <Route path="artigos/fotografia-de-moda-na-atualidade" element={<FotografiaDeModaAtualidade />} />
         <Route path="guest-writers" element={<GuestWriters />} />
         <Route path="sobre-nos" element={<SobreNos />} />
         <Route path="*" element={<NotFound />} />

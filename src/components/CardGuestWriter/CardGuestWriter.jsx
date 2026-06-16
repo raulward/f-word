@@ -10,10 +10,14 @@ export default function CardGuestWriter({
   imageAlt,
   imageAsset,
   imageColor = '#2a0d0a',
+  imagePosition = 'center',
 }) {
   return (
     <Link to={to} className={styles.card}>
-      <div className={styles.image} style={{ backgroundColor: imageColor }}>
+      <div
+        className={styles.image}
+        style={{ backgroundColor: imageColor, '--image-position': imagePosition }}
+      >
         {imageSrc && (
           <img
             src={imageSrc}

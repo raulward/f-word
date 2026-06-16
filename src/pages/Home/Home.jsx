@@ -8,6 +8,7 @@ import artigoSobNovaDirecao from '../../../artigo-sob-a-nova-direcao.svg'
 import artigoAlemDoLook from '../../../artigo-alem-do-look.svg'
 import artigoInternet from '../../../artigo-a-internet.svg'
 import artigoImagem3 from '../../../3.svg'
+import fotografiaModaGuest from '../../../novas_imagens/1.jpeg'
 import styles from './Home.module.css'
 
 const emFoco = [
@@ -62,16 +63,29 @@ const artigos = [
   },
 ]
 
-const guestWriter = {
-  to: '/artigos/moda-sob-nova-direcao',
-  title: 'A Moda Sob Nova Direção:',
-  subtitle: 'Quando o Roteiro de O Diabo Veste Prada 2 Encontra a Realidade do Met Gala',
-  author: 'Bianca Mei',
-  imageSrc: artigoSobNovaDirecao,
-  imageAlt: 'Imagem do guest writer A Moda Sob Nova Direção',
-  imageAsset: 'artigo-sob-a-nova-direcao.svg',
-  imageColor: '#2a0d0a',
-}
+const guestWriters = [
+  {
+    to: '/artigos/moda-sob-nova-direcao',
+    title: 'A Moda Sob Nova Direção:',
+    subtitle: 'Quando o Roteiro de O Diabo Veste Prada 2 Encontra a Realidade do Met Gala',
+    author: 'Bianca Mei',
+    imageSrc: artigoSobNovaDirecao,
+    imageAlt: 'Imagem do guest writer A Moda Sob Nova Direção',
+    imageAsset: 'artigo-sob-a-nova-direcao.svg',
+    imageColor: '#2a0d0a',
+  },
+  {
+    to: '/artigos/fotografia-de-moda-na-atualidade',
+    title: 'Fotografia de Moda na Atualidade:',
+    subtitle: 'imagem, narrativa e consumo visual',
+    author: 'Lucas Xavier (Luke Xavier)',
+    imageSrc: fotografiaModaGuest,
+    imageAlt: 'Imagem do guest writer Fotografia de Moda na Atualidade',
+    imageAsset: 'novas_imagens/1.jpeg',
+    imageColor: '#2a0d0a',
+    imagePosition: 'center 38%',
+  },
+]
 
 export default function Home() {
   return (
@@ -98,7 +112,11 @@ export default function Home() {
 
       <section className={`${styles.section} ${styles.guest}`}>
         <h2 className={styles.sectionTitle}>Guest Writers:</h2>
-        <CardGuestWriter {...guestWriter} />
+        <div className={styles.guestStack}>
+          {guestWriters.map((card) => (
+            <CardGuestWriter key={card.to} {...card} />
+          ))}
+        </div>
       </section>
     </div>
   )

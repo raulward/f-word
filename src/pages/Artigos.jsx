@@ -8,6 +8,7 @@ export const articles = [
   { slug: 'internet-transformou-tendencia', title: 'A Internet Transformou a Tendência' },
   { slug: 'muito-alem-do-look', title: 'Muito Além do Look' },
   { slug: 'o-que-voce-veste', title: 'O que Você Veste Diz Quem Você É (ou Quem Quer Ser)' },
+  { slug: 'fotografia-de-moda-na-atualidade', title: 'Fotografia de Moda na Atualidade' },
 ]
 
 export default function Artigos() {

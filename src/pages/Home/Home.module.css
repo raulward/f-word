@@ -39,3 +39,9 @@
 .guest {
   padding-bottom: 120px;
 }
+
+.guestStack {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
