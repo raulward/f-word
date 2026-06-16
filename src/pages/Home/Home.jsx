@@ -53,7 +53,7 @@ const artigos = [
   },
   {
     to: '/artigos/o-que-voce-veste',
-    title: 'O que você veste diz quem você é ou quem quer ser:',
+    title: 'O que você veste diz quem você é (ou quem quer ser):',
     body: 'Moda, identidade e os códigos invisíveis que carregamos no corpo',
     imageSrc: artigoImagem3,
     imageAlt: 'Imagem do artigo O que você veste diz quem você é ou quem quer ser',

@@ -7,7 +7,7 @@ export const articles = [
   { slug: 'cabelo-como-politica', title: 'Cabelo como Política' },
   { slug: 'internet-transformou-tendencia', title: 'A Internet Transformou a Tendência' },
   { slug: 'muito-alem-do-look', title: 'Muito Além do Look' },
-  { slug: 'o-que-voce-veste', title: 'O que Você Veste Diz Quem Você É' },
+  { slug: 'o-que-voce-veste', title: 'O que Você Veste Diz Quem Você É (ou Quem Quer Ser)' },
 ]
 
 export default function Artigos() {
