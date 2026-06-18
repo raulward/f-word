@@ -9,10 +9,14 @@ export default function CardArtigo({
   imageAlt,
   imageAsset,
   imageColor = '#3a1f1a',
+  imagePosition = 'center',
 }) {
   return (
     <Link to={to} className={styles.card}>
-      <div className={styles.image} style={{ backgroundColor: imageColor }}>
+      <div
+        className={styles.image}
+        style={{ backgroundColor: imageColor, '--image-position': imagePosition }}
+      >
         {imageSrc && (
           <img
             src={imageSrc}

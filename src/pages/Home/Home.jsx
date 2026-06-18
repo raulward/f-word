@@ -13,14 +13,14 @@ import styles from './Home.module.css'
 
 const emFoco = [
   {
-    to: '/artigos/diabo-veste-prada',
-    title: 'Diabo Veste Prada 2:',
-    subtitle: 'A moda, o Poder e o Cerco das Big Techs',
-    imageSrc: diaboEmFoco,
-    imageAlt: 'Miranda Priestly em vestido vermelho',
-    imageAsset: 'em-foco-diabo-veste-prada.jpg',
-    imageColor: '#5a1a16',
-    imagePosition: '56% 18%',
+    to: '/artigos/fotografia-de-moda-na-atualidade',
+    title: 'Fotografia de Moda na Atualidade:',
+    subtitle: 'imagem, narrativa e consumo visual',
+    imageSrc: fotografiaModaGuest,
+    imageAlt: 'Fotografia de Moda na Atualidade',
+    imageAsset: 'novas_imagens/1.jpeg',
+    imageColor: '#2a0d0a',
+    imagePosition: 'center 38%',
   },
   {
     to: '/artigos/cabelo-como-politica',
@@ -34,6 +34,16 @@ const emFoco = [
 ]
 
 const artigos = [
+  {
+    to: '/artigos/diabo-veste-prada',
+    title: 'Diabo Veste Prada 2:',
+    body: 'A moda, o Poder e o Cerco das Big Techs',
+    imageSrc: diaboEmFoco,
+    imageAlt: 'Miranda Priestly em vestido vermelho',
+    imageAsset: 'em-foco-diabo-veste-prada.jpg',
+    imageColor: '#5a1a16',
+    imagePosition: '56% 18%',
+  },
   {
     to: '/artigos/muito-alem-do-look',
     title: 'Muito além do look do dia: O que a sua roupa diz sobre a sua idade (e o seu bolso)',
