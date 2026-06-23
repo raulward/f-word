@@ -1,9 +1,31 @@
 import CardGuestWriter from '../components/CardGuestWriter/CardGuestWriter.jsx'
 import artigoSobNovaDirecao from '../../artigo-sob-a-nova-direcao.svg'
 import fotografiaModa from '../../novas_imagens/1.jpeg'
+import equilibrivmModa from '../assets/equilibrivm/capa.jpeg'
+import meiaNoiteParis from '../assets/meia-noite-paris/capa.jpeg'
 import styles from './GuestWriters.module.css'
 
 const guestWriters = [
+  {
+    to: '/artigos/sindrome-meia-noite-paris',
+    title: 'Síndrome de Meia-Noite em Paris:',
+    subtitle: 'Porque a Geração Z está obcecada pelos anos 2000?',
+    author: 'Vini Santin',
+    imageSrc: meiaNoiteParis,
+    imageAlt: 'Duas jovens usando referências de moda dos anos 2000',
+    imageAsset: 'src/assets/meia-noite-paris/capa.jpeg',
+    imagePosition: '40% center',
+  },
+  {
+    to: '/artigos/equilibrivm-e-a-moda',
+    title: 'A moda como instrumento de transição nas eras na carreira de divas pop:',
+    subtitle: 'Anitta e a era EQUILIBRIVM',
+    author: 'Duda Lucena',
+    imageSrc: equilibrivmModa,
+    imageAlt: 'Anitta em visual da era EQUILIBRIVM cercada por velas vermelhas',
+    imageAsset: 'src/assets/equilibrivm/capa.jpeg',
+    imagePosition: 'center 42%',
+  },
   {
     to: '/artigos/moda-sob-nova-direcao',
     title: 'A Moda Sob Nova Direção:',

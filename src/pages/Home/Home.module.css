@@ -19,6 +19,14 @@
   color: var(--color-white);
 }
 
+.destaque {
+  padding-bottom: 24px;
+}
+
+.emFocoSection {
+  padding-top: 54px;
+}
+
 .emFocoGrid {
   display: grid;
   grid-template-columns: repeat(2, 850px);

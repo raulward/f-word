@@ -9,7 +9,21 @@ import artigoAlemDoLook from '../../../artigo-alem-do-look.svg'
 import artigoInternet from '../../../artigo-a-internet.svg'
 import artigoImagem3 from '../../../3.svg'
 import fotografiaModaGuest from '../../../novas_imagens/1.jpeg'
+import equilibrivmModaGuest from '../../assets/equilibrivm/capa.jpeg'
+import quemContaAModa from '../../assets/quem-conta-a-moda/capa.png'
+import meiaNoiteParisGuest from '../../assets/meia-noite-paris/capa.jpeg'
 import styles from './Home.module.css'
+
+const destaque = {
+  to: '/artigos/quem-conta-a-moda',
+  title: 'Quem conta a moda?',
+  body: 'Entre pesquisa, crítica e tradução cultural, três profissionais refletem sobre o papel da comunicação na construção da moda brasiliense.',
+  imageSrc: quemContaAModa,
+  imageAlt: 'Exposição de moda brasiliense com peças em manequins',
+  imageAsset: 'src/assets/quem-conta-a-moda/capa.png',
+  imageColor: '#d5c2a7',
+  imagePosition: 'center 45%',
+}
 
 const emFoco = [
   {
@@ -75,6 +89,28 @@ const artigos = [
 
 const guestWriters = [
   {
+    to: '/artigos/sindrome-meia-noite-paris',
+    title: 'Síndrome de Meia-Noite em Paris:',
+    subtitle: 'Porque a Geração Z está obcecada pelos anos 2000?',
+    author: 'Vini Santin',
+    imageSrc: meiaNoiteParisGuest,
+    imageAlt: 'Imagem do guest writer Síndrome de Meia-Noite em Paris',
+    imageAsset: 'src/assets/meia-noite-paris/capa.jpeg',
+    imageColor: '#1b1715',
+    imagePosition: '40% center',
+  },
+  {
+    to: '/artigos/equilibrivm-e-a-moda',
+    title: 'A moda como instrumento de transição nas eras na carreira de divas pop:',
+    subtitle: 'Anitta e a era EQUILIBRIVM',
+    author: 'Duda Lucena',
+    imageSrc: equilibrivmModaGuest,
+    imageAlt: 'Imagem do guest writer Anitta e a era EQUILIBRIVM',
+    imageAsset: 'src/assets/equilibrivm/capa.jpeg',
+    imageColor: '#2a0d0a',
+    imagePosition: 'center 42%',
+  },
+  {
     to: '/artigos/moda-sob-nova-direcao',
     title: 'A Moda Sob Nova Direção:',
     subtitle: 'Quando o Roteiro de O Diabo Veste Prada 2 Encontra a Realidade do Met Gala',
@@ -102,7 +138,11 @@ export default function Home() {
     <div className={styles.home}>
       <HeroBanner />
 
-      <section className={styles.section}>
+      <section className={`${styles.section} ${styles.destaque}`}>
+        <CardArtigo {...destaque} />
+      </section>
+
+      <section className={`${styles.section} ${styles.emFocoSection}`}>
         <h2 className={styles.sectionTitle}>Em foco:</h2>
         <div className={styles.emFocoGrid}>
           {emFoco.map((card) => (

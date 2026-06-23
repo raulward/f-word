@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom'
 import PageStub from '../components/PageStub/PageStub.jsx'
 
 export const articles = [
+  { slug: 'sindrome-meia-noite-paris', title: 'Síndrome de Meia-Noite em Paris' },
+  { slug: 'quem-conta-a-moda', title: 'Quem Conta a Moda?' },
+  { slug: 'equilibrivm-e-a-moda', title: 'Anitta e a Era EQUILIBRIVM' },
   { slug: 'moda-sob-nova-direcao', title: 'A Moda Sob Nova Direção' },
   { slug: 'diabo-veste-prada', title: 'Diabo Veste Prada 2' },
   { slug: 'cabelo-como-politica', title: 'Cabelo como Política' },

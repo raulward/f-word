@@ -12,6 +12,9 @@ import InternetTransformouTendencia from './pages/posts/InternetTransformouTende
 import MuitoAlemDoLook from './pages/posts/MuitoAlemDoLook.jsx'
 import OQueVoceVeste from './pages/posts/OQueVoceVeste.jsx'
 import FotografiaDeModaAtualidade from './pages/posts/FotografiaDeModaAtualidade.jsx'
+import EquilibrivmEModa from './pages/posts/EquilibrivmEModa.jsx'
+import QuemContaAModa from './pages/posts/QuemContaAModa.jsx'
+import SindromeMeiaNoiteParis from './pages/posts/SindromeMeiaNoiteParis.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 export default function App() {
@@ -28,6 +31,9 @@ export default function App() {
         <Route path="artigos/muito-alem-do-look" element={<MuitoAlemDoLook />} />
         <Route path="artigos/o-que-voce-veste" element={<OQueVoceVeste />} />
         <Route path="artigos/fotografia-de-moda-na-atualidade" element={<FotografiaDeModaAtualidade />} />
+        <Route path="artigos/equilibrivm-e-a-moda" element={<EquilibrivmEModa />} />
+        <Route path="artigos/quem-conta-a-moda" element={<QuemContaAModa />} />
+        <Route path="artigos/sindrome-meia-noite-paris" element={<SindromeMeiaNoiteParis />} />
         <Route path="guest-writers" element={<GuestWriters />} />
         <Route path="sobre-nos" element={<SobreNos />} />
         <Route path="*" element={<NotFound />} />
