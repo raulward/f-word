@@ -1,237 +1,181 @@
 import ArticleLayout from '../../components/ArticleLayout/ArticleLayout.jsx'
-import styles from './EquilibrivmEModa.module.css'
-import heroImage from '../../assets/quem-conta-a-moda/capa.jpeg'
-import mandingaImage from '../../assets/equilibrivm/image1.png'
-import desgracaImage from '../../assets/equilibrivm/image2.png'
-import funkGenerationImage from '../../assets/equilibrivm/image3.png'
-import nanaImage from '../../assets/equilibrivm/image4.png'
-import equilibrivmImage from '../../assets/equilibrivm/image5.png'
+import heroImage from '../../assets/quem-conta-a-moda/capa.png'
 
 export default function QuemContaAModa() {
   return (
     <ArticleLayout
-      title="A moda como instrumento de transição nas eras na carreira de divas pop:"
-      subtitle="Anitta e a era EQUILIBRIVM"
-      intro="A moda, juntamente com a música, é uma forma de comunicação capaz de transmitir valores, identidades, crenças e até mesmo posicionamentos sociais."
-      author="Duda Lucena"
+      title="Quem conta a moda?"
+      subtitle="Entre pesquisa, crítica e tradução cultural, três comunicadoras refletem sobre o papel da comunicação na construção da moda brasiliense."
+      intro="Se você está por dentro do cenário da moda brasiliense ou tem amigos que estão, provavelmente já frequentou eventos e festivais que movimentam a cena local. Mas você sabe quem são as pessoas que ajudam a fazer essa roda girar?"
+      author="Lusth"
       hero={
         <img
           src={heroImage}
-          alt="Estúdio de moda iluminado em vermelho durante uma produção fotográfica"
-          style={{ objectPosition: 'center' }}
+          alt="Exposição de moda brasiliense com peças em manequins"
+          style={{ objectPosition: 'center 45%' }}
         />
       }
     >
       <p>
-        Dentro do universo da construção de uma imagem de diva pop, a moda sempre caminhou junto,
-        até porque, além da sonoridade, o que de fato faz uma artista ser pop é a maneira como ela
-        se comunica e se mostra para o mundo. É aí que a moda entra de forma estratégica na
-        consolidação das famosas &quot;eras&quot; dentro da carreira de uma artista pop. Dessa
-        forma, a moda ultrapassa sua função utilitária e torna-se um importante instrumento de
-        construção de significados e posicionamento.
+        Por trás de qualquer cobertura de moda consistente está uma equipe formada por
+        profissionais de diferentes áreas do conhecimento, característica que se reflete na
+        multiplicidade de temas, abordagens e perspectivas presentes nas reportagens publicadas.
       </p>
 
       <p>
-        Mas afinal, o que é uma era dentro do universo pop? No mercado musical, uma era pode ser
-        compreendida como um período específico da carreira de um artista, marcado por uma
-        identidade própria, conceitos visuais definidos e uma narrativa que orienta a comunicação
-        de um álbum ou projeto. Além do lançamento de novas músicas, uma era representa a
-        construção de todo um universo capaz de conectar sonoridade, estética, performances,
-        discursos e posicionamentos em uma mesma mensagem.
+        Tive a oportunidade de conversar com comunicadoras de moda que compartilharam suas visões
+        sobre a comunicação de moda, os desafios e potencialidades do mercado brasiliense e os
+        caminhos para quem deseja ingressar na indústria. Com formações que transitam entre
+        relações internacionais, jornalismo e direito, elas compõem parte de uma equipe responsável
+        pelo conteúdo jornalístico e analítico que caracteriza uma cobertura de moda plural e
+        multidisciplinar.
       </p>
 
       <p>
-        Para as chamadas &quot;divas pop&quot;, as eras desempenham um papel fundamental na
-        manutenção de sua relevância cultural e mercadológica. Cada nova fase apresenta ao público
-        uma versão diferente da artista, com novos códigos visuais, figurinos, cores, referências e
-        comportamentos que dialogam diretamente com os temas abordados em suas músicas. Dessa
-        forma, a moda deixa de ser um elemento complementar e passa a atuar como uma das principais
-        ferramentas de comunicação dessas transformações.
+        Quando falamos sobre comunicar moda, temos grandes nomes na indústria que vêm moldando o
+        mercado há décadas, como <em>Vogue</em>, <em>Bazaar</em> e <em>GQ</em>. No entanto, mesmo
+        dentro dessas grandes casas existem inúmeras pessoas que desenvolvem esse trabalho
+        diariamente.
       </p>
 
       <p>
-        Ao longo das últimas décadas, artistas como Madonna, Lady Gaga, Beyoncé e Taylor Swift
-        consolidaram a ideia de que cada álbum pode funcionar como um novo capítulo de suas
-        carreiras, acompanhado por transformações visuais que ajudam a comunicar novos
-        posicionamentos e narrativas. Nesse contexto, as eras tornam-se verdadeiras estratégias de
-        branding, permitindo que o público identifique imediatamente os valores e significados
-        associados a cada fase artística.
+        Uma cobertura de moda comprometida nos mostra uma Brasília completamente diferente da que é
+        conhecida mundo afora: uma cidade para além do cinza da política.
       </p>
 
       <p>
-        Em um mercado cada vez mais competitivo, a construção visual e estética de uma era musical
-        é tão importante quanto as canções, pois contribui ativamente para a consolidação da
-        identidade artística e, principalmente, para a conexão emocional com quem consome a artista.
-        A roupa, ou o estilo em si, gera identificação imediata. Dessa forma, a consolidação só vem
-        de fato quando todos os fatores conseguem conversar entre si: moda, música e a artista.
+        Quando questionadas sobre qual é o principal objetivo ao comunicarmos moda, nossas
+        convidadas apresentaram diferentes visões sobre um mesmo tópico.
       </p>
 
       <p>
-        Quando uma artista passa de uma era para outra, essa transição precisa ser bem construída
-        visualmente e comunicada de forma estratégica. Caso contrário, gera o efeito oposto:
-        rejeição e descontentamento por parte do público, por não se tratar de algo estruturado ou
-        artisticamente coeso. É possível observar esse comportamento por meio de comentários nas
-        redes sociais, nos quais fãs e entusiastas do universo pop criticam artistas por eras mal
-        construídas, desconexas ou forçadas.
+        Uma das comunicadoras começou apontando o quão importante é o processo antes mesmo de
+        escrever uma linha sequer. “Ter uma pesquisa construída em camadas e fontes relevantes e
+        confiáveis.” Com um background jornalístico, ela demonstra compromisso com o método de
+        pesquisa em si, certificando-se não apenas dos fatos e das fontes, mas também explorando a
+        moda para além da estética. Trouxe ainda a perspectiva de que uma comunicação eficaz não
+        apenas evidencia o que a moda apresenta, mas desenvolve uma análise crítica, seja ela
+        positiva ou não. Ao final, reverencia a importância de observar a relação entre moda e
+        sociedade.
       </p>
 
       <p>
-        Algumas cantoras, como a norte-americana Ariana Grande, enfrentam dificuldades justamente
-        pela falta de coesão entre uma era e outra. Muitas vezes, o público se apega à estética e à
-        imagem construídas em determinada fase da carreira e, quando a artista adota um novo
-        conceito, parte dos fãs não acompanha essa transição. Em alguns casos, mudanças muito
-        bruscas de estilo acabam não dialogando com as expectativas do público, o que pode gerar
-        estranhamento e dificultar a recepção do novo projeto. Por esse motivo, moda e
-        posicionamento precisam conversar de maneira conjunta e coesa o tempo todo.
+        Outra comunicadora complementa esse pensamento ao falar sobre traduzir a forma como a moda
+        dialoga com o público geral, para além de uma bolha ou nicho. Mostrar que a moda se
+        apresenta, influencia e é influenciada por diversas áreas e frentes.
       </p>
 
       <p>
-        Quando voltamos o olhar para o cenário brasileiro, a cantora Anitta e sua nova fase
-        EQUILIBRIVM demonstram justamente como conduzir essa transição de eras de maneira
-        estratégica. A artista utiliza a moda como um importante instrumento de comunicação,
-        construindo uma ponte entre sua fase anterior e seu novo posicionamento.
+        “Quando falamos sobre moda, vemos ela acontecer.” Essa fala faz refletir sobre a relação
+        que a moda tem com a própria realidade. A moda fala antes mesmo de qualquer outra
+        linguagem; portanto, se comunicamos e traduzimos aquilo que a indumentária expressa,
+        estamos também construindo a moda como a conhecemos.
       </p>
 
       <p>
-        Não é por acaso que, mesmo saindo de uma era marcada por uma estética mais intensa,
-        associada a funks mais pesados e performances mais provocativas e muito amada pelos fãs,
-        ela migrou para um momento profundamente conectado à espiritualidade e à ancestralidade,
-        com uma sonoridade completamente diferente de tudo que já havia apresentado, e ainda assim
-        foi muito bem recebida por sua base de fãs.
+        E por onde começamos quando o objetivo é criar um mercado de moda? Bom, normalmente o
+        mercado já existe e resiste em meio às adversidades. Brasília não é um caso diferente.
       </p>
 
       <p>
-        A mudança não foi percebida como uma ruptura, mas como uma evolução natural de sua
-        trajetória, resultado de uma construção visual e narrativa cuidadosamente planejada.
-      </p>
-
-      <section className={styles.visualBlock} aria-label="Funk Generation X EQUILIBRIVM">
-        <h2 className={styles.visualTitle}>Funk Generation X EQUILIBRIVM</h2>
-        <div className={styles.imageGrid}>
-          <figure className={`${styles.imageFrame} ${styles.portrait}`}>
-            <img
-              src={funkGenerationImage}
-              alt="Anitta em visual da era Funk Generation"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-          <figure className={`${styles.imageFrame} ${styles.portrait}`}>
-            <img
-              src={equilibrivmImage}
-              alt="Anitta em visual da era EQUILIBRIVM"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-        </div>
-      </section>
-
-      <p>
-        Após uma breve pausa em sua agenda de compromissos nacionais e internacionais em 2025,
-        Anitta retornou com uma proposta que refletia aspectos centrais de sua vivência pessoal
-        naquele momento: a busca pelo equilíbrio, pela espiritualidade e pela conexão com suas
-        raízes culturais. É justamente por isso que o álbum EQUILIBRIVM representa uma das
-        transformações mais significativas de sua carreira.
+        Para a mídia e para o imaginário coletivo, a cidade vive exclusivamente através da
+        realidade política, o que representa grande parte do cotidiano dos moradores da região, mas
+        não é tudo. Brasília existe para além do centro e para além da política institucional. A
+        moda e a cultura florescem nos cenários alternativos e periféricos, onde a arte ocupa a
+        cidade, mostrando que realmente há quem viva ali.
       </p>
 
       <p>
-        Para materializar essa narrativa, a cantora incorporou ao seu trabalho referências ligadas
-        ao candomblé, religião da qual faz parte, além de instrumentos, sonoridades e elementos
-        visuais profundamente conectados à cultura brasileira. As músicas apresentam letras mais
-        reflexivas e uma estética que valoriza a ancestralidade e a identidade nacional. O que mais
-        chama a atenção, no entanto, é a forma como todos esses elementos foram organizados de
-        maneira coesa, transformando-se em uma era artística completa, na qual a moda desempenha um
-        papel fundamental.
-      </p>
-
-      <section className={`${styles.visualBlock} ${styles.landscape}`} aria-label="Mandingá">
-        <div className={`${styles.imageGrid} ${styles.single}`}>
-          <figure className={styles.imageFrame}>
-            <img
-              src={mandingaImage}
-              alt="Anitta na gravação do visual de Mandingá em Belo Horizonte"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-        </div>
-        <p className={styles.caption}>
-          Anitta na gravação do visual de &quot;Mandingá&quot;, em Belo Horizonte.
-        </p>
-      </section>
-
-      <p>
-        A diretora criativa do projeto EQUILIBRIVM, Nídia Aranha, revelou em entrevista à
-        Billboard que o conceito de toda a era nasceu da intenção de representar o encontro entre o
-        sagrado e o humano, traduzindo visualmente a nova fase de vida de Anitta. Segundo a
-        diretora, a proposta era celebrar a alma do Brasil por meio de elementos ligados à
-        ancestralidade, à espiritualidade e à cultura nacional. Nesse contexto, a moda assumiu um
-        papel central na materialização desses significados, funcionando como um elo entre a
-        narrativa musical e a identidade visual do projeto.
+        Então, sabemos que o mercado existe, mas quais medidas são tomadas para fomentá-lo? Qual a
+        relevância desse trabalho? Uma das comunicadoras afirma que existe uma realidade local
+        ofuscada pelas grandes mídias e pela cooperação nacional que movimenta a roda da moda,
+        ainda muito centralizada no eixo Rio-São Paulo.
       </p>
 
       <p>
-        Todo esse cuidado com a estética também pode ser observado no processo de desenvolvimento
-        dos visuais do álbum. Em entrevista ao portal Terra, o produtor Felipe Britto afirmou que
-        Anitta participou ativamente da construção estética, chegando ao projeto repleta de
-        referências de moda, arte sacra, rituais e comportamento visual. Segundo ele, o desafio
-        consistiu em transformar esse conjunto de referências em uma identidade coesa, capaz de
-        representar a essência do álbum. Nesse processo, Nídia Aranha teve papel fundamental ao
-        organizar esses elementos e conectá-los em uma narrativa visual única.
+        Essa perspectiva se estende para outros setores, como o cinema e o teatro, trazendo um
+        questionamento: será que isso vem apenas da indústria? Outra comunicadora argumenta que
+        existe uma falta de valorização da moda regional, que não nasce apenas do mercado, mas
+        também de quem a consome. A ideia de que apenas a própria indústria tem o dever de se
+        regular acaba por esvaziar a pauta. A sociedade tem tanto papel nas mudanças que almeja
+        quanto os meios que produzem essas transformações.
       </p>
-
-      <section className={`${styles.visualBlock} ${styles.portrait}`} aria-label="Nanã e Desgraça">
-        <div className={styles.imageGrid}>
-          <figure className={styles.imageFrame}>
-            <img
-              src={nanaImage}
-              alt="Anitta na gravação do visual de Nanã em Belo Horizonte"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-          <figure className={styles.imageFrame}>
-            <img
-              src={desgracaImage}
-              alt="Anitta na gravação do visual de Desgraça em Belo Horizonte"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-        </div>
-        <p className={styles.caption}>
-          Anitta na gravação do visual de &quot;Nanã&quot; e &quot;Desgraça&quot;, em Belo
-          Horizonte.
-        </p>
-      </section>
 
       <p>
-        A era EQUILIBRIVM demonstra como a moda pode atuar como uma ferramenta estratégica de
-        comunicação, transformando elementos visuais em mecanismos de produção de significado e
-        fortalecimento da identidade artística.
+        Comunicar um mercado exige um trabalho multidisciplinar, principalmente na moda, que
+        influencia tantas áreas da sociedade. Saber o que falar e como falar é crucial para o bom
+        entendimento da mensagem, assim como trazer os contrapontos às afirmações estabelecidas
+        para que o público possa construir o próprio repertório.
       </p>
 
-      <p className={styles.sources}>
-        <em>
-          Fontes:{' '}
-          <a
-            href="https://billboard.com.br/nidia-aranha-moldou-o-disco-equilibrivm-de-anitta/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Billboard Brasil
-          </a>{' '}
-          e{' '}
-          <a
-            href="https://www.terra.com.br/diversao/musica/nao-da-pra-usar-elementos-sagrados-como-cenario-decorativo-diz-produtor-dos-visuais-do-equilibrivm-de-anitta-entrevista,617668d15c4aff17689359d087c84856i6lnwjhp.html"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Terra
-          </a>
-          .
-        </em>
+      <p>
+        Uma das comunicadoras afirma que uma das principais etapas ao comunicar moda reside em
+        traduzir a importância da moda para o público geral. Reforça a ideia de que ela se
+        manifesta em diferentes aspectos da vida cotidiana e que entender de moda não é o mesmo que
+        entender de roupa.
+      </p>
+
+      <p>
+        Trazer para perto do discurso as pessoas que historicamente foram invisibilizadas e
+        democratizar o acesso à moda é o ponto que outra comunicadora reforça. Mostrar que o
+        sistema de moda engloba e influencia todos em alguma instância, independentemente de
+        fatores sociológicos.
+      </p>
+
+      <p>
+        Em síntese, para as comunicadoras, comunicar moda vai muito além de falar da última
+        tendência ou da cor da estação. Trata-se de traduzir a linguagem do mercado para aqueles
+        que não a dominam, mostrar seus pontos positivos e negativos e realizar um trabalho
+        multidisciplinar, construindo camadas embasadas em fontes concretas para elaborar um
+        discurso que demonstre, ao final das contas, que moda é muito mais do que roupa.
+      </p>
+
+      <p>
+        Pensando em um futuro melhor e em uma geração com mais letramento e repertório, as
+        comunicadoras deixam conselhos para a posteridade. Falam sobre o que esperam do futuro da
+        moda regional, nacional e global e compartilham, com aqueles que almejam trabalhar com
+        moda, suas experiências na área.
+      </p>
+
+      <p>
+        Uma delas reforça a importância da autocrítica: saber mostrar o quê, quando, para quem e
+        sobre quem comunicar. Mantendo-se, assim, comprometida com seu público. Diz também que
+        encontrou um ritmo muito diferente de outras áreas ao trabalhar com jornalismo de moda, mas
+        que aprecia imensamente as oportunidades de conhecer pessoas e acessar lugares que essa
+        carreira proporciona.
+      </p>
+
+      <p>
+        Outra traz a discussão para a saúde mental. Preocupar-se com terapia, rede de apoio e
+        autoconfiança são alguns dos principais conselhos. Além disso, afirma que é necessário
+        criar repertório, desenvolver autoridade sobre o que se fala e exercitar a criatividade.
+        Sobre sua experiência, comenta que a urgência associada ao trabalho de comunicar é um
+        grande desafio, mas que o dinamismo da rotina torna esse peso menos amargo.
+      </p>
+
+      <p>
+        A terceira comunicadora diz estar vivendo um sonho ao seguir essa carreira e revela sua
+        animação por poder trabalhar e falar sobre uma paixão de anos. A mensagem que deixa é para
+        que ninguém desista: estudar e construir seu próprio universo dentro da moda é essencial,
+        porque sempre existirá espaço para quem faz um bom trabalho.
+      </p>
+
+      <p>
+        Ter a oportunidade de conversar com verdadeiras insiders da indústria foi, além de
+        revigorante, uma experiência esclarecedora. Suas falas sobre o mercado provocam reflexões,
+        seus conselhos inspiram e seus anseios mostram que são necessários esforços múltiplos para
+        fazer a moda girar. Comunicar moda e se aprofundar no assunto realmente é muito mais do que
+        falar de roupa; é um convite a observar a sociedade por lentes analíticas que nem sempre
+        revelam nosso lado mais bonito e é exatamente por isso que essa prática é tão importante.
+      </p>
+
+      <p>
+        Continue a ler, estudar, consumir, acompanhar, assistir e viver moda. Porque é assim que
+        fazemos com que ela aconteça, mesmo quando o lugar ou o tempo parecem não permitir.
+      </p>
+
+      <p>
+        <em>“Não existe vida sem arte.”</em>
       </p>
     </ArticleLayout>
   )
