@@ -1,5 +1,5 @@
 import ArticleLayout from '../../components/ArticleLayout/ArticleLayout.jsx'
-import heroImage from '../../assets/quem-conta-a-moda/capa.png'
+import heroImage from '../../assets/quem-conta-a-moda/capa.jpeg'
 
 export default function QuemContaAModa() {
   return (
@@ -11,8 +11,8 @@ export default function QuemContaAModa() {
       hero={
         <img
           src={heroImage}
-          alt="Exposição de moda brasiliense com peças em manequins"
-          style={{ objectPosition: 'center 45%' }}
+          alt="Estúdio de moda iluminado em vermelho durante uma produção fotográfica"
+          style={{ objectPosition: 'center' }}
         />
       }
     >

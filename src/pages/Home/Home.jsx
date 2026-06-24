@@ -10,7 +10,7 @@ import artigoInternet from '../../../artigo-a-internet.svg'
 import artigoImagem3 from '../../../3.svg'
 import fotografiaModaGuest from '../../../novas_imagens/1.jpeg'
 import equilibrivmModaGuest from '../../assets/equilibrivm/capa.jpeg'
-import quemContaAModa from '../../assets/quem-conta-a-moda/capa.png'
+import quemContaAModa from '../../assets/quem-conta-a-moda/capa.jpeg'
 import meiaNoiteParisGuest from '../../assets/meia-noite-paris/capa.jpeg'
 import styles from './Home.module.css'
 
@@ -19,10 +19,10 @@ const destaque = {
   title: 'Quem conta a moda?',
   body: 'Entre pesquisa, crítica e tradução cultural, três comunicadoras refletem sobre o papel da comunicação na construção da moda brasiliense.',
   imageSrc: quemContaAModa,
-  imageAlt: 'Exposição de moda brasiliense com peças em manequins',
-  imageAsset: 'src/assets/quem-conta-a-moda/capa.png',
-  imageColor: '#d5c2a7',
-  imagePosition: 'center 45%',
+  imageAlt: 'Estúdio de moda iluminado em vermelho durante uma produção fotográfica',
+  imageAsset: 'src/assets/quem-conta-a-moda/capa.jpeg',
+  imageColor: '#711912',
+  imagePosition: 'center',
 }
 
 const emFoco = [
